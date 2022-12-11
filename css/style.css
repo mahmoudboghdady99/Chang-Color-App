@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    text-align: center;
+    margin: 100px auto auto auto;
+}
+.btn {
+    padding: 15px 0;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    background: -webkit-linear-gradient(left, yellow, red);
+    opacity: 0.9;
+    border: none;
+    transition: opacity 0.5s;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    opacity: 1;
+}
+.mydiv {
+    width: 300px;
+    height: 150px;
+    background: -webkit-linear-gradient(top, yellow, green);
+    margin: auto;
+}
